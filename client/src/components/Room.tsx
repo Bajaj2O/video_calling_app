@@ -3,6 +3,7 @@ import peer from "../providers/peer";
 import { useSocket } from '../providers/socket';
 import {useState, useEffect ,useCallback} from 'react';
 import ReactPlayer from "react-player";
+import React from 'react';
 
 export default function Room() {
 

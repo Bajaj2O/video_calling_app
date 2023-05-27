@@ -8,6 +8,7 @@ Routes
 } from 'react-router-dom'
 import { SocketProvider } from './providers/socket'
 import {Home , Room} from './components'
+import React from 'react'
 // import { PeerProvider } from "./providers/peer";
 
 

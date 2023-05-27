@@ -2,6 +2,7 @@ import '../index.css';
 import {useSocket} from '../providers/socket';
 import  { useState,useEffect, FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
+import React from 'react';
 
 export default function Home() {
   const [name, setName] = useState('');
